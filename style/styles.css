@@ -3,7 +3,7 @@
 
 
 
-.nav-section1{
+.navbar{
 
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@
     margin-bottom: 20px;
    
 }
-.logo-color{
+.color{
     color: #FF5400;
     font-family: Mulish;
     font-size: 36px;
@@ -54,6 +54,11 @@
     font-size: 18px;
     font-weight: 400;
     font-family: 'Mulish', sans-serif;
+}
+.nav-menu li.home-colours{
+    
+        color: #FF5400;
+    
 }
 
 .nav-container{
@@ -543,7 +548,7 @@
     justify-content: center;
     margin-top: 20px;
 }
-
+/* mewsletter section */
 .Newsletter{
 
     display: flex;
@@ -622,14 +627,7 @@
     font-size: 20px;
   
     font-weight: 800;
- 
-
-    
-
-
-}
-
-
+ }
 .Newsletter-section2{
     background: url('../Images/Rectangle\ 8\ \(1\).png');
     width: 672px;
@@ -649,12 +647,7 @@
     background: #FF5400;
     padding: 20px;
     text-align: center;
-
-
-    
-
 }
-
 
 .discount h1{
     color: #FFF;
@@ -769,11 +762,7 @@
     font-size: xx-large;
    }
 
-   
-   
-
- 
-   .image-sec-content{
+.image-sec-content{
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -782,9 +771,7 @@
     
    }
   
-
-  
-   .img-sec1,.img-sec2,.img-sec3{
+.img-sec1,.img-sec2,.img-sec3{
     
     display: flex;
     
@@ -879,6 +866,9 @@
     
 
   }
+  
+
+
 
   
  
